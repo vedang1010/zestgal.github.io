@@ -3,15 +3,15 @@
 const posts = []
 
 const images = [
-    '../Images/cyclo1.jpeg',
-    '../Images/cyclo2.jpg',
-    '../Images/DSC_0003-2.jpg',
-    '../Images/DSC_0017-2.jpg',
-    '../Images/DSC_0026-2.jpg',
-    '../Images/DSC_0357-2.jpg',
-    '../Images/DSC_0374-2.jpg',
-    '../Images/DSC_0416-2.jpg',
-    '../Images/DSC_0479-2.jpg',
+    './Images/cyclo1.jpeg',
+    './Images/cyclo2.jpg',
+    './Images/DSC_0003-2.jpg',
+    './Images/DSC_0017-2.jpg',
+    './Images/DSC_0026-2.jpg',
+    './Images/DSC_0357-2.jpg',
+    './Images/DSC_0374-2.jpg',
+    './Images/DSC_0416-2.jpg',
+    './Images/DSC_0479-2.jpg',
 ]
 
 let imageIndex = 0;
