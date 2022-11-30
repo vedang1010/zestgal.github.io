@@ -32,14 +32,14 @@ main {
 .header {
   position: fixed;
   top: 0;
-  height: 100px;
+  height: 150px;
   width: 100%;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  /* padding-left: 2vw;
+  padding-right: 2vw; */
   display: flex;
   align-items: center;
-  /* background: black; */
-  z-index: 10;
+  background: black;
+  z-index: 120;
   justify-content: center;
   mix-blend-mode: difference;
 }
@@ -111,11 +111,42 @@ img {
 
 /*  */
 /*  */
-@media (max-width:500px) {
+@media (max-width:950px) {
   .container {
     transform: translateX(60px);
     /* padding-left:20px ; */
   }
+  img {
+    width: 80%;
+    height: 80%;}
+    .header {
+      position: fixed;
+      top: 0;
+      height: 120px;
+}}
+@media (max-width:650px) {
+  .container {
+    transform: translateX(60px);
+    /* padding-left:20px ; */
+  }
+  img {
+    width: 70%;
+    height: 70%;}
+    .header {
+      position: fixed;
+      top: 0;
+      height: 100px;
+}
+}
+@media (max-width:500px) {
+  .container {
+    transform: translateX(50px);
+    /* padding-left:20px ; */
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    height: 150px;}
   img {
     width: 75%;
     height: 75%;}
