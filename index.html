@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BG.css">
+    <title>ZEST</title>
+</head>
+
+<body>
+    <section class="wrapper">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
+        <!-- <div id="title"> -->
+        <!-- <span>START-UP EXPO</span> -->
+
+
+        <main>
+            <div class="header">
+                <!-- <h2>BLOG</h2> -->
+            </div>
+            <div class="container"></div>
+        </main>
+        <!--  -->
+        <!-- <img src="../Images/bg.jpg" onclick="openFullImg(this.src)" alt=""> -->
+        <!-- <div class="full-img" id="fullImgBox">
+            <img src="../Images/cyclo1.jpeg" alt="" id="fullImg">
+            <span onclick="closeFullImg()">
+                <h2>X</h2>
+            </span>
+        </div> -->
+        <!-- </div> -->
+    </section>
+
+    <!--  -->
+    <script src="items.js"></script>
+    <script src="app.js"></script>
+    <script src="a.js"></script>
+    <!--  -->
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+        function openFullImg(pic) {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg() {
+            fullImgBox.style.display = "none";
+            fullImg.src = pic;
+        }
+
+    </script>
+    <!--  -->
+
+
+</body>
+
+</html>
