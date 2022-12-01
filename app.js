@@ -30,8 +30,7 @@ function generateMasonryGrid(columns, posts){
             let title = document.createElement('h3');
             // title.innerText = post.title;
             hoverDiv.appendChild(title);
-    
-            
+
             postDiv.append(image, hoverDiv)
             div.appendChild(postDiv) 
         });
