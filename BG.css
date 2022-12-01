@@ -2,8 +2,13 @@ html {
     height: 100%;
     overflow: hidden;
     background: radial-gradient(ellipse at bottom, #090a0f 0%,#090a0f 100%);
+    background-attachment: fixed;
 }
-
+body{
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 /* #title {
     position: absolute;
     top: 30%;
